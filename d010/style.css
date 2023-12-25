@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'font02';
+    src: url('fontes/dinrundschrifteng.otf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face { 
+    font-family:'indroid';
+    src: url('fontes/idroid.otf') format('opentype') ;
+}
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+header {
+    background-image:linear-gradient(to bottom,#3DDB84, #33B66D,#2A965A,#227646,#1A5C38 );
+    color: white;
+    padding-bottom: 10px;
+}
+header>h1 {
+    font-family:'font02', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+}
+header > p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+nav>a:hover {
+    color: #227646;
+    background-color: rgba(255, 255, 255, 0.522);
+    border-radius: 3px;
+}
+main {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width:60%;
+    margin: auto;
+    padding: 10px;
+}
+h1,h2 {
+    font-family:'indroid';
+    color: #1A5C38;
+}
+h2 {
+    padding-left: 8px;
+    background-image: linear-gradient(to right, #56d891a7, #ffffff);
+    
+}
+a.ancora {
+    font-weight: bolder;
+    color: #2A965A  ;
+    text-decoration: none;
+}
+span {
+    font-weight: bolder;
+    color: #2A965A ;
+}
+p {
+    text-indent: 30px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+article {
+    width: 60%;
+    padding: 35px 10px;
+    margin: auto;
+    background-color: #1A5C38;
+}
+article>iframe {
+    width: 740px;
+    height: 410px;
+    margin: auto;
+    display: block;
+}
+section {
+    border-radius:0px 0px 8px 8px ;
+    padding: 7px;
+    background-color: #84E1AD;
+    font-weight: bold;
+    
+}
+h3 {
+    border-radius: 8px 8px 0px 0px;
+    background-color: #33B66D;
+    color: white;
+    padding: 11px;
+}
+a {
+    color: black;
+}
+.lista {
+    padding: 20px 200px 20px 0px;
+    display: inline-block;
+    background-color: transparent;
+}
+ol {
+    list-style: none;
+}
+
+footer {
+    color: white;
+    background-color: #1A5C38;
+}
+footer>p {
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+.criadores {
+    color: white;
+}
